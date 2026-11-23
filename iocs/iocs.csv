@@ -1,0 +1,16 @@
+type,value,first_seen,context,action
+domain,getwellnetworkcareers[.]com,11/12/26,Lookalike of getwellnetwork.com; registered 2026-11-10,block
+email,[redacted]@getwellnetworkcareers[.]com,11/12/26,Sender address impersonating a real HR employee,block
+dkim_domain,getwellnetworkcareers-com.20260707.gappssmtp[.]com,11/12/26,Google Workspace default DKIM signer (not aligned with From),monitor
+ip,209.85.220[.]41,11/12/26,Google outbound mail server (shared infrastructure),do_not_block
+ip,209.85.220[.]65,11/13/26,Google outbound mail server (shared infrastructure),do_not_block
+subject,Junior Network Engineer Position- Confirmation of Continued Interest,11/12/26,Subject of email 1; later emails prefixed Re:,search
+filename,Get Well Screening questionnaire for a Jr Network Engineer (1).pdf,11/13/26,Attachment on email 2,search
+sha256,a5450a671a96a3d7a45a4afa23132f97c73c629e54cf074616c77f0a6829baa9,11/13/26,Questionnaire PDF; no active content; not on VirusTotal,block
+sha1,6d5c1a01bb928c772b3d32ee51ea1b560ec1b31c,11/13/26,Questionnaire PDF,block
+md5,b02dbc50597bb3d00680def74b957693,11/13/26,Questionnaire PDF,block
+message_id,<CA+kp7YshNwf48QO8W5yD_sNRToOLrFPBO5KsXZUHTLr=MRYVGQ@mail.gmail.com>,11/12/26,Email 1,search
+message_id,<CA+kp7YsABeSaBx5jQv6MbkgF21kogP=C1kiM0yBZnqv2EE3iKg@mail.gmail.com>,11/13/26,Email 2,search
+message_id,<CA+kp7Yt0EgmeTp8+NFXCvL_D15jcaLasnhGon6jEY52qMD4Xyw@mail.gmail.com>,11/17/26,Email 3,search
+message_id,<CA+kp7YtWppN_oPEf3F3X+w6XTpY78prZ-JT_fs1NaWqgFjHkvA@mail.gmail.com>,11/18/26,Email 4,search
+message_id,<CA+kp7YukZg+-CbnXSVwFy2We4=TVknVm0s3_pa9TJk=VTSK3wg@mail.gmail.com>,11/20/26,Email 5,search
