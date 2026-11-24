@@ -1,6 +1,6 @@
 # Phishing Analysis: Fake Recruiter Campaign Impersonating Get Well
 
-![Case study overview](case-study.png)
+![Case study overview](screenshots/case-study.png)
 
 > **Case type:** Employment-fraud / information-harvesting phishing (multi-stage)
 > **Analyst:** David Lau (graduating May 2027, applying to new-grad roles)
